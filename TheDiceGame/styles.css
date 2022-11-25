@@ -1,0 +1,65 @@
+body {
+ background-color: #F0BB62;
+ font-family: 'Indie Flower', cursive;
+}
+.container{
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+/* title text  */
+.page-title{
+
+  text-shadow:10px 10px 10px rgba(128, 128, 128, 0), 5px 0px 0px black;
+}
+span{
+    text-decoration: underline;
+}
+.conclusion{
+   text-align: center;
+  font-size: 3rem;
+
+  word-spacing: 2rem;
+  color: #FFE3E3;
+  font-family: 'Lobster', cursive;
+    text-shadow:10px 10px 10px rgba(128, 128, 128, 0), 5px 0px 0px black;
+}
+/* main heading */
+h1{
+  text-align: center;
+  font-size: 8rem;
+  line-height: 10rem;
+  word-spacing: 2rem;
+  color: #FFE3E3;
+  font-family: 'Lobster', cursive;
+}
+/* table section  */
+table{
+
+  margin: 0 auto;
+  color: #FFE3E3;
+  font-size: 1.3rem;
+}
+table,tr,td{
+
+  text-align: center;
+}
+.table-item{
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 40px;
+  font-weight: lighter;
+}
+/* credit section */
+
+footer{
+
+  color: #000000;
+  font-weight: bolder;
+  font-size: 20px;
+  margin-top: 50px;
+
+}
+/* hr tag  */
+hr{
+ margin: 50px;
+}
