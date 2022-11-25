@@ -1,6 +1,6 @@
 # myProjects
 This is the link to my CV
-[website ](https://mayank5112.github.io/myProjects/MyCV/index.html)<br>
+[website ](https://mayank5112.github.io/webDevProjects/MyCV/index.html)<br>
 These are all the projects that I have done. 
 The below link is for a dice game.<br> 
 [DiceGame](https://mayank5112.github.io/myProjects/TheDiceGame/index.html)<br>
