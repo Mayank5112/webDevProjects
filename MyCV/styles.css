@@ -76,6 +76,7 @@ hr {
 	position: absolute;
 	left: 20%;
 }
+
 .BUTTON {
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
@@ -103,12 +104,10 @@ hr {
 	border-radius: 15px;
 	text-decoration: none;
 }
-.middle-container {
-}
 .bottom-container {
 	background-color: #fef5ed;
 	padding: 20px;
-	/* padding-bottom: 50px; */
+	padding-bottom: 50px;
 	line-height: 5;
 }
 .footer-link {
@@ -125,4 +124,30 @@ hr {
 .me3 {
 	-webkit-clip-path: circle(50% at 50% 50%);
 	clip-path: circle(50% at 50% 50%);
+}
+
+/* small screen css */
+@media all and (max-width: 500px) {
+	.top-container {
+		z-index: -10;
+		padding-bottom: 60px;
+		width: 100vw;
+	}
+	h1 {
+		z-index: 100;
+	}
+	.top-cloud {
+		opacity: 0.7;
+		z-index: -5;
+	}
+	.bottom-cloud {
+		position: absolute;
+		left: 20%;
+		top: 60%;
+		z-index: -5;
+		opacity: 0.7;
+	}
+	.mountain {
+		display: none;
+	}
 }
