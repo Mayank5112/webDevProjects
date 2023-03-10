@@ -24,7 +24,7 @@ h1 {
 	border-right: 1.3px solid #66bfbf;
 	overflow: hidden;
 	white-space: nowrap;
-	animation: typing 2s steps(23), cursor 0.4s step-end infinite alternate;
+	animation: typing 2s steps(23) forwards, cursor 0.4s step-end infinite alternate;
 }
 @keyframes cursor {
 	50% {
@@ -180,15 +180,10 @@ hr {
 		z-index: 100;
 	}
 	.top-cloud {
-		opacity: 0.7;
-		z-index: -5;
+		display: none;
 	}
 	.bottom-cloud {
-		position: absolute;
-		left: 20%;
-		top: 60%;
-		z-index: -5;
-		opacity: 0.7;
+		display: none;
 	}
 	.mountain {
 		display: none;
