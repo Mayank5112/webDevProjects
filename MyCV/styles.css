@@ -13,11 +13,32 @@ h1 {
 	line-height: 7rem;
 }
 .fp {
+	position: relative;
 	font-weight: normal;
 	font-size: 1.5rem;
 	color: #11999e;
 }
-
+.fp-text {
+	display: inline-block;
+	padding-right: 7px;
+	border-right: 1.3px solid #66bfbf;
+	overflow: hidden;
+	white-space: nowrap;
+	animation: typing 2s steps(23), cursor 0.4s step-end infinite alternate;
+}
+@keyframes cursor {
+	50% {
+		border-color: transparent;
+	}
+}
+@keyframes typing {
+	from {
+		width: 0;
+	}
+	to {
+		width: 265.156px;
+	}
+}
 .top-container {
 	margin: 0 auto 100px 0;
 	background-color: #fef5ed;
@@ -69,14 +90,14 @@ hr {
 }
 .top-cloud {
 	position: absolute;
-	right: 20%;
-	top: 20%;
+	right: -100%;
+	animation: slide-in-right 2s forwards;
 }
 .bottom-cloud {
 	position: absolute;
-	left: 20%;
+	left: -100%;
+	animation: slide-in-left 2s forwards;
 }
-
 .BUTTON {
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
@@ -125,6 +146,27 @@ hr {
 	-webkit-clip-path: circle(50% at 50% 50%);
 	clip-path: circle(50% at 50% 50%);
 	height: 25rem;
+}
+.top-container h1 {
+	opacity: 0;
+	animation: fade-in 2s forwards;
+}
+/* animations */
+@keyframes fade-in {
+	to {
+		opacity: 1;
+	}
+}
+@keyframes slide-in-left {
+	to {
+		left: 20%;
+	}
+}
+@keyframes slide-in-right {
+	to {
+		right: 20%;
+		top: 20%;
+	}
 }
 
 /* small screen css */
